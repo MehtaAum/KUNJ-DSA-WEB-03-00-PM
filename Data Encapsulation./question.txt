@@ -1,0 +1,38 @@
+Theme: Data Encapsulation with this Keyword
+
+Storyline
+Theme:
+Imagine you are creating a banking application for the Gokuldham Society, inspired by Tarak Mehta Ka Ooltah Chashmah. Each character has their own bank account, and you need to design a system where the account details are securely encapsulated, ensuring no unauthorized access.
+
+Example Scenario:
+
+Jethalal wants to check his account balance.
+Bhide wants to deposit money securely into Tapu Sena’s account.
+Popatlal wants to see if his account finally has a positive balance.
+Your task is to use data encapsulation to ensure that account details are private and can only be accessed or modified through proper methods. Additionally, use the this keyword to manage conflicts between local variables and class member variables.
+
+📝 Task Requirements
+Create a Class BankAccount:
+
+Private Members:
+
+accountNumber (Account number)
+accountHolderName (Name of the account holder)
+balance (Account balance)
+Public Methods:
+
+Constructor to initialize account details.
+deposit(amount) to add money to the account.
+withdraw(amount) to deduct money (ensure sufficient balance).
+getAccountDetails() to display account information.
+Use this Keyword:
+
+Use the this keyword in the constructor to differentiate between local and class member variables (e.g., this->balance).
+Create a Main Function:
+
+Initialize accounts for characters like Jethalal, Bhide, and Popatlal using the constructor.
+Allow users to perform actions like deposit, withdrawal, and viewing account details using the public methods.
+Encapsulation Demonstration:
+
+Ensure the private members cannot be accessed directly.
+Use only the public methods for all interactions.
