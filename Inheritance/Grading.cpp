@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 class superhero{
 public:
   int flyingpoints;
@@ -36,6 +34,8 @@ public:
   }
 
 };
+
+//used hierarchial inheritance
 
 class ironman : public superhero{
 public:
