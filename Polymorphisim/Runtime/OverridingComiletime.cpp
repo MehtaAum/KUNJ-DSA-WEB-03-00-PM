@@ -27,7 +27,7 @@ a *obj1;
 b obj2;
 
 obj1 = &obj2;
-obj1->num();//so, output is derived class coz the pointer is pointing to base class a.
+obj1->num();//so, output is base class coz the pointer is pointing to base class a.
 
 
 }
